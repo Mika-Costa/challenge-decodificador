@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title>CriptoMagia</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="cabecalho">
+        <div class="titulo">
+            <h1> CriptoMagia </h1>
+            <h2>A Bruxa e Seus Segredos de Decifração</h2>
+        </div>
+    </div>
+    
+    <main class="main">
+       <div class="left"> 
+            <div class="elementos1">
+                <textarea id="input" class="input" spellcheck="false" placeholder="Confie na bruxa e conte seu segredo... (somente em letras minúsculas e sem acentos)"></textarea>
+                <div class="btn-container">
+                    <input class="botao"  type="button" value="Criptografar" onclick="criptografar()">
+                    <input class="botao" type="button" value="Descriptografar" onclick="descriptografar()">
+                </div>
+            </div>
+        </div>   
+    
+        <div class="right">
+            <div class="elementos1">
+                <textarea id="out" class="out" spellcheck="false" placeholder="Aguarde seu segredo ser protegido pela CriptoMagia..."></textarea>
+                <div class="icon2"> </div>
+                <div class="out-copiar">
+                    <input class="botao2" type="button" value="Copiar" onclick="copiarTexto()">           
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        &copy; Desenvolvido por Michaelle Costa,2024</footer>
+</body>
